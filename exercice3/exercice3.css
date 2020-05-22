@@ -1,0 +1,72 @@
+.blue{
+    background-color: darkcyan;
+}
+
+
+
+.layout{
+ display: grid;
+    grid-template-rows: 50px 400px 100px;
+    grid-template-columns:  700px 200px;
+    grid-template-areas:
+    " header header"
+    " main links"
+    " footer other";
+    color:white;
+}
+
+#one{
+    padding-left:700px;
+    grid-area: header;
+    border-bottom:   1px solid black;
+    text-align: left;
+ 
+} 
+
+
+#two{
+       grid-area: main;
+        color:white;
+        font-size: larger;
+        text-align: center;
+         
+}
+
+#three{
+    grid-area: links;
+}
+
+#four{
+    grid-area: footer;
+    text-align: center;
+  
+}
+
+#five{
+    grid-area: other;
+}
+
+
+#six{
+    padding-top: 10px;
+    color:white;
+    text-align: left;
+    }
+
+.center{
+
+  margin-left: 21px;
+}
+.center2{
+    margin-left: 10px;
+  }
+
+  .img{
+      height: 100px;
+      width: 100px;
+      padding-top: 200px;
+   
+  }
+
+
+  

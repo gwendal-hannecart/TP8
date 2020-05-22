@@ -1,11 +1,22 @@
-<<!DOCTYPE html> 
+<!DOCTYPE html> 
         <html lang='fr'> 
           <head> 
                <meta charset='utf-8'>
     <title>titrepage</title>
- <link href="exercice3.css" rel="stylesheet">
- </head> 
- <body> 
+    <link rel="stylesheet" type="text/css" href="exercice3.css">
+ <body class="blue">
+    <div class="layout">
+    <div id="one">Image dynamique</div>
+    <div id="two" ><img src="th.jpg " alt="img"  id="photo" style="top : 0px; left:0px; height: 100px;
+      width: 100px; position: relative;"></img></div>
+    <div id="three">Tableau de Bord<br><p ><button class="center" id="top" onclick="haut()" >top</button><br><button id="left" onclick="gauche()" >left</button><button id="right" onclick="droite()">right</button><br><button class="center2" id="bottom"  onclick="bas()">bottom</button></p> </div>
+    <div id="four"><p><button  id="open" onclick="ou()">ouvrir un nouveau pop-up</button><button id="close" onclick="ferm()" >redémarrer le pop-up</button></p></div>
+    <div id="five"></div>
+
+    </div>
+    
+
+     
  <script src="exercice3.js"></script>
 </body>
  </html> 
